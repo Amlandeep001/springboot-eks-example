@@ -22,10 +22,9 @@ t2.small: EC2 instance
 Configure kubectl to Use the EKS Cluster:
 ------------------------------------------------------------------------------------------------------------------
 aws eks --region ap-south-1 update-kubeconfig --name amlan-cluster
-------------------------------------------------------------------------------------------------------------------
 
 Get the service url(EXTERNAL-IP) from below command:
-
+------------------------------------------------------------------------------------------------------------------
 kubectl get svc
 
 <EXTERNAL-IP>/greetings -> API endpoint testing
