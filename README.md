@@ -30,6 +30,6 @@ kubectl get svc
 <EXTERNAL-IP>/greetings -> API endpoint testing
 
 
-Deelete Cluster: 
+Delete Cluster: 
 ------------------------------------------------------------------------------------------------------------------
 eksctl delete cluster amlan-cluster
